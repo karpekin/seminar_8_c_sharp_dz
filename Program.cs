@@ -68,60 +68,117 @@
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки 
 // с наименьшей суммой элементов: 1 строка
 
-Console.Write("Введите количество строк M: ");
-int M = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите количество столбцов N: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int[,] arr = new int[M,N];
+// Console.Write("Введите количество строк M: ");
+// int M = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите количество столбцов N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int[,] arr = new int[M,N];
 
-void Array(int M, int N)
+// void Array(int M, int N)
+// {
+// int i,j;
+// Random rand = new Random();
+// for (i = 0; i < M; i++)
+// {
+// for (j = 0; j < N; j++)
+// {
+//     arr[i,j] = rand.Next(1,5);
+// }
+// }
+// }
+
+// void PrintArray(int[,] array)
+// {
+// int i,j;
+// for (i = 0; i < array.GetLength(0); i++)
+// {
+// for (j = 0; j < array.GetLength(1); j++)
+// {
+//     Console.Write($"{array[i,j]} ");
+// }
+// Console.WriteLine();
+// }
+// }
+
+// Array(M,N);
+// PrintArray(arr);
+
+// // Функция, считающая сумму элементов в строке
+// int SumLine(int[,] array, int i)
+// {
+// int Array = array[i,0];
+// for (int j = 1; j < array.GetLength(1); j++)
+// {
+//     Array += array[i,j];
+// }
+// return Array;
+// }
+
+// int minSum = 1;
+// int sum = SumLine(arr, 0);
+// for (int i = 1; i < arr.GetLength(0); i++)
+// {
+// if (sum > SumLine(arr, i))
+// {
+//     sum = SumLine(arr, i);
+//     minSum = i+1;
+// }
+// }
+// Console.WriteLine(minSum);
+
+// Задача 58: Задайте две матрицы. Напишите программу, 
+// которая будет находить произведение двух матриц.
+// Например, даны 2 матрицы:
+// 2 4 | 3 4
+// 3 2 | 3 3
+// Результирующая матрица будет:
+// 18 20
+// 15 18
+
+// int m = InputNumbers("Число строк 1-й матрицы: ");
+// int n = InputNumbers("Введите число столбцов 1-й матрицы (и строк 2-й): ");
+// int p = InputNumbers("Введите число столбцов 2-й матрицы: ");
+// int range = InputNumbers("Введите диапазон случайных чисел: от 1 до ");
+
+int[,] martrix1 = new int[,]{{2,4},
+                             {3,2}};
+PrintArray(martrix1);
+Console.WriteLine("x");
+
+int[,] martrix2 = new int[,]{{3,4},
+                             {3,3}};
+PrintArray(martrix2);
+
+int[,] sum_matrix = new int[2,2];
+
+SumMatrix(martrix1, martrix2, sum_matrix);
+Console.WriteLine("______________________");
+PrintArray(sum_matrix);
+
+void SumMatrix(int[,] matrix1, int[,] martrix2, int[,] sum_matrix)
 {
-int i,j;
-Random rand = new Random();
-for (i = 0; i < M; i++)
-{
-for (j = 0; j < N; j++)
-{
-    arr[i,j] = rand.Next(1,5);
-}
-}
+  for (int i = 0; i < sum_matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < sum_matrix.GetLength(1); j++)
+    {
+      int sum = 0;
+      for (int k = 0; k < matrix1.GetLength(1); k++)
+      {
+        sum += martrix1[i,k] * martrix2[k,j];
+      }
+      sum_matrix[i,j] = sum;
+    }
+  }
 }
 
-void PrintArray(int[,] array)
+void PrintArray (int[,] array)
 {
-int i,j;
-for (i = 0; i < array.GetLength(0); i++)
-{
-for (j = 0; j < array.GetLength(1); j++)
-{
-    Console.Write($"{array[i,j]} ");
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      Console.Write(array[i,j] + " ");
+    }
+    Console.WriteLine();
+  }
 }
-Console.WriteLine();
-}
-}
-
-Array(M,N);
-PrintArray(arr);
-
-// Функция, считающая сумму элементов в строке
-int SumLine(int[,] array, int i)
-{
-int Array = array[i,0];
-for (int j = 1; j < array.GetLength(1); j++)
-{
-    Array += array[i,j];
-}
-return Array;
-}
-
-int minSum = 1;
-int sum = SumLine(arr, 0);
-for (int i = 1; i < arr.GetLength(0); i++)
-{
-if (sum > SumLine(arr, i))
-{
-    sum = SumLine(arr, i);
-    minSum = i+1;
-}
-}
-Console.WriteLine(minSum);
