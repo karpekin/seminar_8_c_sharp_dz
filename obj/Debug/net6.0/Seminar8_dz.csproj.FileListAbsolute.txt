@@ -1,0 +1,15 @@
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\bin\Debug\net6.0\Seminar8_dz.exe
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\bin\Debug\net6.0\Seminar8_dz.deps.json
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\bin\Debug\net6.0\Seminar8_dz.runtimeconfig.json
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\bin\Debug\net6.0\Seminar8_dz.dll
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\bin\Debug\net6.0\Seminar8_dz.pdb
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.csproj.AssemblyReference.cache
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.AssemblyInfoInputs.cache
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.AssemblyInfo.cs
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.csproj.CoreCompileInputs.cache
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.dll
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\refint\Seminar8_dz.dll
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.pdb
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\Seminar8_dz.genruntimeconfig.cache
+C:\Users\karpekin\YandexDisk\GeekBrains\I четверть\3.Знакомство с языками программирования\Семинары\Урок 8. Двумерные массивы. Продолжение\Seminar8_dz\obj\Debug\net6.0\ref\Seminar8_dz.dll
